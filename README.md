@@ -25,11 +25,11 @@ To add a paper, copy an existing object, give it a unique `id`, and fill in veri
 
 `year` must be a number. Empty `links` arrays are supported; they render no dead button. Accepted work should have `status: "Accepted"`. Preprints should be identified as preprints. Do not invent a future proceedings link.
 
-For a portrait, place a photograph inside `static/assets/` and set `photo` to its path starting with `assets/`. The current draft uses the existing GitHub portrait. Set `email` to the address you want public; the current address was confirmed by Arun. Advisor and lab fields control the linked affiliation text. For the future public CV, put the approved PDF inside `static/files/` and set `cv` to `files/<filename>.pdf`. The builder copies only the configured CV. Keep old CVs in their separate workspace.
+For a portrait, place a photograph inside `static/assets/` and set `photo` to its path starting with `assets/`. The current draft uses the existing GitHub portrait. Set `email` to the address you want public; the current address was confirmed by Arun. Advisor and lab fields control the linked affiliation text. For public CV downloads, put approved PDFs inside `static/files/` and configure `cv` and optionally `research_cv` with their `files/<filename>.pdf` paths. The builder copies only configured PDFs. Keep old CVs in their separate workspace.
 
-### Link the updated full CV when ready
+### CV downloads
 
-Use the stable path `static/files/arun-m-george-cv.pdf` for the approved full academic CV, and set `cv` in `content/site.json` to `files/arun-m-george-cv.pdf`. Rebuild the site: a CV link then appears in the profile on every page. Replace the PDF at that same path for subsequent updates, so bookmarks continue to work. Keep targeted CVs separate unless a specific public version is deliberately chosen. Until the full CV is ready, leave `cv` empty; no placeholder or outdated download is shown.
+The profile includes **Full CV** and **Research CV** links on every page. `cv` in `content/site.json` selects `files/arun-m-george-cv.pdf`; `research_cv` selects `files/arun-m-george-research-cv.pdf`. Both files live inside `static/files/`. Replace these approved PDFs in place to preserve direct application links ending in `.pdf`. The research CV currently emphasizes continual learning. Omit or empty either field to hide that download. The builder copies only explicitly configured PDFs and validates their paths; local drafts and manuscripts remain outside the public source repository.
 
 The `url` in `content/site.json` is set to `https://nexus-aeon.github.io` without a trailing slash. The builder adds page-specific canonical/social-preview URLs, a sitemap, and robots.txt when this field is set. During later updates, review time-sensitive biography text (such as Ph.D. year), paper acceptance/publication statuses, and CV freshness.
 
@@ -51,4 +51,4 @@ Layout and typography hierarchy adapted from [Minimal Light](https://github.com/
 
 ## Current scope
 
-The current version contains 16 public scholarly records, five granted U.S. patents, a portrait, advisor/lab links, email, and brief recognition/service details. The homepage selects six works plus a compact link to earlier event-camera research. The updated CV remains a future task. Anonymous submissions and unsubmitted manuscripts are not included. The DAC entry links the verified conference program rather than an unverified proceedings DOI.
+The current version contains 16 public scholarly records, five granted U.S. patents, a portrait, advisor/lab links, email, and brief recognition/service details. The homepage selects six works plus a compact link to earlier event-camera research. Full and focused research CV downloads are available. Anonymous submissions and unsubmitted manuscripts are not included. The DAC entry links the verified conference program rather than an unverified proceedings DOI.
