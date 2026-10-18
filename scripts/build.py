@@ -69,16 +69,21 @@ def build():
     profile_links = list(site["links"])
     if site["email"]:
         profile_links.insert(0, {"label": "Email", "url": "mailto:" + site["email"]})
-    if site["cv"]:
-        cv_path = ROOT / "static" / site["cv"]
+    for field, label in [("cv", "Full CV"), ("research_cv", "Research CV")]:
+        cv_url = site.get(field, "")
+        if not cv_url:
+            continue
+        relative_path = Path(cv_url)
+        cv_path = ROOT / "static" / relative_path
+        if (relative_path.is_absolute() or relative_path.suffix.lower() != ".pdf"
+                or not cv_path.resolve().is_relative_to((ROOT / "static/files").resolve())):
+            raise ValueError("CV must be a PDF inside static/files")
         if not cv_path.is_file():
-            raise ValueError("The configured CV file is missing")
-        if cv_path.resolve().is_relative_to((ROOT / "static").resolve()) is False:
-            raise ValueError("CV must be inside static")
-        destination = OUT / site["cv"]
+            raise ValueError(f"The configured {label} file is missing")
+        destination = OUT / relative_path
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(cv_path, destination)
-        profile_links.append({"label": "CV", "url": site["cv"]})
+        profile_links.append({"label": label, "url": cv_url})
     photo = ""
     if site["photo"]:
         photo_path = ROOT / "static" / site["photo"]
