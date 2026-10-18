@@ -1,0 +1,37 @@
+[
+  {
+    "number": "US12347159B2",
+    "title": "System and method for real-time radar-based action recognition using spiking neural network (SNN)",
+    "granted": "2025-07-01",
+    "inventors": ["Sounak Dey", "Arijit Mukherjee", "Dighanchal Banerjee", "Smriti Rani", "Arun George", "Tapas Chakravarty", "Arijit Chowdhury", "Arpan Pal"],
+    "url": "https://patents.google.com/patent/US12347159B2/en"
+  },
+  {
+    "number": "US12326979B2",
+    "title": "System and method for acoustic based gesture tracking and recognition using spiking neural network",
+    "granted": "2025-06-10",
+    "inventors": ["Andrew Gigie", "Arun George", "Achanna Anil Kumar", "Sounak Dey", "Kuchibhotla Aditi", "Arpan Pal"],
+    "url": "https://patents.google.com/patent/US12326979B2/en"
+  },
+  {
+    "number": "US12307360B2",
+    "title": "Method and system for optimized spike encoding for spiking neural networks",
+    "granted": "2025-05-20",
+    "inventors": ["Dighanchal Banerjee", "Sounak Dey", "Arijit Mukherjee", "Arun George"],
+    "url": "https://patents.google.com/patent/US12307360B2/en"
+  },
+  {
+    "number": "US11960654B2",
+    "title": "Acoustic system and method based gesture detection using spiking neural networks",
+    "granted": "2024-04-16",
+    "inventors": ["Andrew Gigie", "Arun George", "Achanna Anil Kumar", "Sounak Dey", "Arpan Pal"],
+    "url": "https://patents.google.com/patent/US11960654B2/en"
+  },
+  {
+    "number": "US11256954B2",
+    "title": "System and method of gesture recognition using a reservoir based convolutional spiking neural network",
+    "granted": "2022-02-22",
+    "inventors": ["Arun George", "Dighanchal Banerjee", "Sounak Dey", "Arijit Mukherjee"],
+    "url": "https://patents.google.com/patent/US11256954B2/en"
+  }
+]

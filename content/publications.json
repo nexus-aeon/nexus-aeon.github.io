@@ -1,0 +1,382 @@
+[
+  {
+    "id": "qtea",
+    "title": "QTEA: Ternary LLMs with Sparse Residual Salient Weight and By-Column Optimization",
+    "authors": [
+      "Yipin Guo",
+      "Arun M George",
+      "Jie Fu",
+      "Tareq Mahmoud",
+      "Sixue Xing",
+      "Siddharth Joshi"
+    ],
+    "self_author": "Arun M George",
+    "year": 2026,
+    "venue": "EMNLP 2026 · Main Conference",
+    "track": "Efficient Methods for NLP",
+    "status": "Accepted",
+    "summary": "Ternary weights, structured residual corrections, and efficient kernels connect compact LLM representations with faster inference.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2609.00224"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Intelligent-Microsystems-Lab/QTEA"
+      }
+    ],
+    "kind": "conference"
+  },
+  {
+    "id": "mantis",
+    "title": "Foundry-SRAM-Compatible Compute-Near-Memory Macro for Microscaled Block-FP in 12-nm CMOS",
+    "authors": [
+      "Samir Rahman",
+      "Arun George",
+      "Shehab Naga",
+      "Thomas Summe",
+      "Yipin Guo",
+      "Siddharth Joshi"
+    ],
+    "self_author": "Arun George",
+    "year": 2026,
+    "venue": "Design Automation Conference (DAC)",
+    "status": "",
+    "kind": "conference",
+    "summary": "MANTIS combines mixed-signal computation and microscaled numerical formats, with end-to-end LLM evaluation accounting for hardware non-idealities.",
+    "links": [
+      {
+        "label": "Conference program",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH1605&sess=sess139"
+      }
+    ]
+  },
+  {
+    "id": "spiking-intrusion",
+    "title": "Surrogate Gradient Descent Based Spiking Intrusion Detection System for Edge Devices: A Performance Study",
+    "authors": [
+      "Dighanchal Banerjee",
+      "Arun M. George",
+      "Urmi Jana",
+      "Sounak Dey"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2026,
+    "venue": "ECML PKDD 2025 Workshops · Proceedings",
+    "status": "",
+    "summary": "",
+    "kind": "workshop",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1007/978-3-032-19099-4_28"
+      }
+    ]
+  },
+  {
+    "id": "huff-llm",
+    "title": "Huff-LLM: End-to-End Lossless Compression for Efficient LLM Inference",
+    "authors": [
+      "Patrick Yubeaton",
+      "Tareq Mahmoud",
+      "Shehab Naga",
+      "Pooria Taheri",
+      "Tianhua Xia",
+      "Arun George",
+      "Yasmein Khalil",
+      "Sai Qian Zhang",
+      "Siddharth Joshi",
+      "Chinmay Hegde",
+      "Siddharth Garg"
+    ],
+    "self_author": "Arun George",
+    "year": 2025,
+    "venue": "arXiv",
+    "status": "Preprint",
+    "summary": "Keeping LLM weights compressed across the memory hierarchy reduces storage and bandwidth requirements without changing weight values.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2502.00922"
+      }
+    ],
+    "kind": "preprint"
+  },
+  {
+    "id": "gru-rvcim",
+    "title": "GRU-RVCIM: Efficient Implementation of Gated Recurrent Unit in RISC-V - Compute In Memory co-designed for Edge Applications",
+    "authors": [
+      "J Chithambara Moorthii",
+      "Deepak Verma",
+      "Arun M George",
+      "Dighanchal Banerjee",
+      "Sounak Dey",
+      "Arijit Mukherjee",
+      "Arpan Pal",
+      "Manan Suri"
+    ],
+    "self_author": "Arun M George",
+    "year": 2025,
+    "venue": "IEEE Embedded Systems Letters",
+    "status": "",
+    "summary": "Recurrent neural-network inference designed jointly with RISC-V and compute-in-memory hardware for edge applications.",
+    "kind": "journal",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/les.2025.3644936"
+      }
+    ]
+  },
+  {
+    "id": "neural-decoding",
+    "title": "Efficient Closed-Loop Neural Decoding for Motor Control of non-Human Primates with Spiking Neural Networks",
+    "authors": [
+      "Thomas Summe",
+      "Arun George",
+      "Siddharth Joshi"
+    ],
+    "self_author": "Arun George",
+    "year": 2025,
+    "venue": "IEEE Biomedical Circuits and Systems Conference (BioCAS)",
+    "status": "",
+    "summary": "Spiking neural networks for efficient closed-loop decoding of motor-control signals.",
+    "kind": "conference",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/biocas67066.2025.00078"
+      }
+    ]
+  },
+  {
+    "id": "koopman",
+    "title": "Approximation of Koopman Operator using Spiking Neural Networks",
+    "authors": [
+      "Arun M. George",
+      "Dighanchal Banerjee",
+      "Titas Bera",
+      "Sounak Dey"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2024,
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "status": "",
+    "summary": "Spiking neural networks approximate Koopman operators for modeling nonlinear dynamical systems.",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://ieeexplore.ieee.org/document/10886595/"
+      }
+    ],
+    "kind": "conference"
+  },
+  {
+    "id": "stereogest",
+    "title": "StereoGest-SNN: Robust Gesture Detection with Stereo Acoustic Setup Using Spiking Neural Networks",
+    "authors": [
+      "Andrew Gigie",
+      "Arun M George",
+      "A Anil Kumar",
+      "Sounak Dey",
+      "Arpan Pal"
+    ],
+    "self_author": "Arun M George",
+    "year": 2023,
+    "venue": "IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "status": "",
+    "summary": "Stereo acoustic sensing and spiking neural networks bring gesture recognition to neuromorphic computation.",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://ieeexplore.ieee.org/document/10181564/"
+      }
+    ],
+    "kind": "conference"
+  },
+  {
+    "id": "online-forecasting",
+    "title": "Online time-series forecasting using spiking reservoir",
+    "authors": [
+      "Arun M. George",
+      "Sounak Dey",
+      "Dighanchal Banerjee",
+      "Arijit Mukherjee",
+      "Manan Suri"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2023,
+    "venue": "Neurocomputing 518, 82–94",
+    "status": "",
+    "summary": "A spiking reservoir with feedback-driven online learning forecasts non-stationary time series in memory-constrained settings.",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1016/j.neucom.2022.10.067"
+      }
+    ],
+    "kind": "journal"
+  },
+  {
+    "id": "time-classification",
+    "title": "Efficient Time Series Classification using Spiking Reservoir",
+    "authors": [
+      "Sounak Dey",
+      "Dighanchal Banerjee",
+      "Arun M. George",
+      "Arijit Mukherjee",
+      "Arpan Pal"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2022,
+    "venue": "International Joint Conference on Neural Networks (IJCNN)",
+    "status": "",
+    "summary": "",
+    "kind": "conference",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/ijcnn55064.2022.9892728"
+      }
+    ]
+  },
+  {
+    "id": "echowrite",
+    "title": "EchoWrite-SNN: Acoustic Based Air-Written Shape Recognition Using Spiking Neural Networks",
+    "authors": [
+      "Arun M George",
+      "Andrew Gigie",
+      "A Anil Kumar",
+      "Sounak Dey",
+      "Arpan Pal",
+      "K Aditi"
+    ],
+    "self_author": "Arun M George",
+    "year": 2022,
+    "venue": "IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "status": "",
+    "summary": "",
+    "kind": "conference",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/iscas48785.2022.9937951"
+      }
+    ]
+  },
+  {
+    "id": "spike-encoding",
+    "title": "Efficient Optimized Spike Encoding of Multivariate Time-series",
+    "authors": [
+      "Dighanchal Banerjee",
+      "Sounak Dey",
+      "Arun M. George",
+      "Arijit Mukherjee"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2022,
+    "venue": "Neuro-Inspired Computational Elements (NICE)",
+    "status": "",
+    "kind": "conference",
+    "summary": "",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1145/3517343.3517349"
+      }
+    ]
+  },
+  {
+    "id": "dvs-gestures",
+    "title": "A Reservoir-based Convolutional Spiking Neural Network for Gesture Recognition from DVS Input",
+    "authors": [
+      "Arun M. George",
+      "Dighanchal Banerjee",
+      "Sounak Dey",
+      "Arijit Mukherjee",
+      "P. Balamurali"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2020,
+    "venue": "International Joint Conference on Neural Networks (IJCNN)",
+    "status": "",
+    "summary": "A convolutional spiking reservoir learns spatio-temporal representations from event-camera streams.",
+    "kind": "conference",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/ijcnn48605.2020.9206681"
+      }
+    ]
+  },
+  {
+    "id": "radar-actions",
+    "title": "Application of Spiking Neural Networks for Action Recognition from Radar Data",
+    "authors": [
+      "Dighanchal Banerjee",
+      "Smriti Rani",
+      "Arun M. George",
+      "Arijit Chowdhury",
+      "Sounak Dey",
+      "Arijit Mukherjee",
+      "Tapas Chakravarty",
+      "Arpan Pal"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2020,
+    "venue": "International Joint Conference on Neural Networks (IJCNN)",
+    "status": "",
+    "summary": "",
+    "kind": "conference",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1109/ijcnn48605.2020.9206853"
+      }
+    ]
+  },
+  {
+    "id": "opt-encoding",
+    "title": "Efficient Optimized Spike Encoding for Spiking Neural Networks",
+    "authors": [
+      "Dighanchal Banerjee",
+      "Sounak Dey",
+      "Arun M. George",
+      "Arijit Mukherjee"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2020,
+    "venue": "OPT 2020 · NeurIPS workshop",
+    "status": "Workshop paper",
+    "kind": "workshop",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://opt-ml.org/oldopt/papers/2020/paper_55.pdf"
+      }
+    ]
+  },
+  {
+    "id": "floating-point",
+    "title": "IEEE 754 floating-point addition for neuromorphic architecture",
+    "authors": [
+      "Arun M. George",
+      "Rahul Sharma",
+      "Shrisha Rao"
+    ],
+    "self_author": "Arun M. George",
+    "year": 2019,
+    "venue": "Neurocomputing",
+    "status": "",
+    "summary": "",
+    "kind": "journal",
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://doi.org/10.1016/j.neucom.2019.05.093"
+      }
+    ]
+  }
+]
