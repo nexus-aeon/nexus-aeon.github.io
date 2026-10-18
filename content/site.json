@@ -1,1 +1,76 @@
-
+{
+  "name": "Arun M. George",
+  "role": "Ph.D. student",
+  "department": "Computer Science and Engineering",
+  "institution": "University of Notre Dame",
+  "institution_url": "https://www.nd.edu/",
+  "description": "Arun M. George is a Ph.D. student at the University of Notre Dame researching continual learning, model compression, and hardware–software co-design.",
+  "email": "ageorg23@nd.edu",
+  "photo": "assets/arun-george.jpg",
+  "cv": "",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=AGHU43cAAAAJ&hl=en"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/nexus-aeon"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/arunmgeorge/"
+    }
+  ],
+  "intro": [
+    "I'm a third-year Ph.D. student in Computer Science and Engineering at the University of Notre Dame. I study how AI systems can keep learning as data changes, within practical memory and computation budgets.",
+    "My research connects continual learning and efficient inference, from learning algorithms and compact representations to hardware-aware implementation.",
+    "Previously, I worked at TCS Research on neuromorphic computing, online learning, and deployment on specialized hardware."
+  ],
+  "themes": [
+    {
+      "id": "continual-learning",
+      "title": "Efficient continual learning",
+      "question": "Retaining knowledge. Preserving the capacity to learn.",
+      "description": "My current research asks how fixed-capacity models can retain useful knowledge and remain able to learn over long sequences of changing tasks. I'm particularly interested in continual learning with bounded auxiliary memory, the balance between stability and plasticity, and learning rules suited to resource-constrained hardware.",
+      "papers": [
+        "online-forecasting"
+      ],
+      "work_label": "Earlier related work"
+    },
+    {
+      "id": "efficient-inference",
+      "title": "Efficient inference",
+      "question": "Compression that translates into efficient execution.",
+      "description": "My work connects low-bit quantization and lossless compression with the kernels and architectures that execute them. The goal is to turn smaller representations into lower memory traffic and faster inference, while accounting for accuracy.",
+      "papers": [
+        "qtea",
+        "huff-llm"
+      ]
+    },
+    {
+      "id": "hardware-aware-learning",
+      "title": "Hardware–software co-design",
+      "question": "Designing with memory, precision, and computation in mind.",
+      "description": "I study how numerical precision, memory organization, and hardware non-idealities shape the design of efficient AI systems. My work connects model-level evaluation with mixed-signal computation, compute-in-memory architectures, and neuromorphic applications.",
+      "papers": [
+        "mantis",
+        "gru-rvcim",
+        "neural-decoding"
+      ],
+      "related": [
+        {
+          "id": "dvs-gestures",
+          "label": "Earlier work: learning from event-camera streams"
+        }
+      ]
+    }
+  ],
+  "lab": "Intelligent Microsystems Lab",
+  "lab_url": "https://ims-lab.ai/",
+  "advisor": "Siddharth Joshi",
+  "advisor_url": "https://siddharth-joshi.com/",
+  "service": "I have reviewed for Neurocomputing, Neural Networks, CDC, and ICASSP, and co-presented a tutorial on bio-inspired neuromorphic computational paradigms at ICASSP 2023.",
+  "recognition": "Our team won both tracks of the IEEE BioCAS 2025 Grand Challenge on closed-loop neural decoding.",
+  "url": "https://nexus-aeon.github.io"
+}
