@@ -7,7 +7,7 @@
   "description": "Arun M. George is a Ph.D. student at the University of Notre Dame researching continual learning, model compression, and hardware–software co-design.",
   "email": "ageorg23@nd.edu",
   "photo": "assets/arun-george.jpg",
-  "cv": "",
+  "cv": "files/arun-m-george-cv.pdf",
   "links": [
     {
       "label": "Google Scholar",
@@ -70,7 +70,8 @@
   "lab_url": "https://ims-lab.ai/",
   "advisor": "Siddharth Joshi",
   "advisor_url": "https://siddharth-joshi.com/",
-  "service": "I have reviewed for Neurocomputing, Neural Networks, CDC, and ICASSP, and co-presented a tutorial on bio-inspired neuromorphic computational paradigms at ICASSP 2023.",
+  "service": "I have reviewed for Nature Communications, Neurocomputing, Neural Networks, CDC, and ICASSP, and co-presented a tutorial on bio-inspired neuromorphic computational paradigms at ICASSP 2023.",
   "recognition": "Our team won both tracks of the IEEE BioCAS 2025 Grand Challenge on closed-loop neural decoding.",
-  "url": "https://nexus-aeon.github.io"
+  "url": "https://nexus-aeon.github.io",
+  "research_cv": "files/arun-m-george-research-cv.pdf"
 }
