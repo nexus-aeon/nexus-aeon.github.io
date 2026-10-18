@@ -1,0 +1,6 @@
+dist/
+preview/
+__pycache__/
+.DS_Store
+CONTENT_BRIEF.md
+LOCAL_REVIEW.md
