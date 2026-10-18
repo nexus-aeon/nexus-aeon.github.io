@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:type" content="website">
+  $canonical
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrapper">
+    <header class="profile">
+      $photo
+      <a class="name" href="./">$name</a>
+      <p class="role">$role</p>
+      <p class="affiliation">$department<br><a href="$institution_url">$institution</a></p>
+      <p class="lab-affiliation">$lab_link</p>
+      <nav class="page-nav" aria-label="Main navigation">$navigation</nav>
+      <div class="profile-links" aria-label="Professional profiles">$links</div>
+    </header>
+    <div class="content-column">
+      <main id="main" tabindex="-1">$content</main>
+      <footer><span>$name</span><span>Adapted from <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></span></footer>
+    </div>
+  </div>
+</body>
+</html>
